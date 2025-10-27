@@ -1,0 +1,11 @@
+gene_name,control,treated
+TP53,3,7
+BRCA1,7,9
+MYC,5,15
+GATA3,8,4
+KRAS,6,12
+EGFR,2,8
+PTEN,8,4
+CDKN1A,4,6
+MDM2,14,40
+BCL2,10,5
