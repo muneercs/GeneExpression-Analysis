@@ -1,0 +1,66 @@
+🧬 Gene Expression Analysis & Visualization
+📌 Overview
+
+This project analyzes and visualizes differentially expressed genes between treated and control samples using Python, pandas, and matplotlib.
+It identifies the top upregulated and downregulated genes based on the log2 fold change (Log2FC) and displays them in a bar plot.
+
+
+🧠 Features
+
+Reads experimental gene expression data from a .csv file
+
+Calculates log2 fold change values
+
+Identifies top upregulated and downregulated genes
+
+Generates a clear and informative bar chart visualization
+
+The program displays a bar chart showing:
+
+🟥 Upregulated genes in red (positive Log2FC values)
+
+⬛ Downregulated genes in black (negative Log2FC values)
+
+GeneExpression-Analysis/
+│
+├── app.py              # Main Python script
+├── data.csv            # Input gene expression dataset
+├── README.md           # Project documentation
+└── requirements.txt    # Python dependencies
+
+
+Install dependencies using:
+
+pip install pandas matplotlib numpy
+
+
+Clone this repository:
+
+git clone 
+
+
+Navigate into the project folder:
+
+cd GeneExpression-Analysis
+
+
+Run the program:
+
+python app.py
+
+Example terminal output:
+
+Top Upregulated Genes:
+   MYC, KRAS, EGFR
+
+Top Downregulated Genes:
+   PTEN, BRCA1, BCL2
+
+🧑‍💻 Author
+
+Muneer Cs
+📧 vallammuneer@gmail.com
+
+💻 Python | Data Visualization | Bioinformatics Enthusiast
+
+   
